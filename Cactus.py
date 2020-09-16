@@ -9,6 +9,8 @@ from selenium.common.exceptions import NoSuchElementException
 import time
 import requests 
 from bs4 import BeautifulSoup
+import sys
+
 
 def openChrome():
     # driver = webdriver.Chrome() # Chrome
@@ -25,8 +27,9 @@ def openChrome():
 
 def getRand(driver):
     
-    driver.get("http://cos2.ntnu.edu.tw/AasEnrollStudent/LoginCheckCtrl?language=TW")
+    driver.get("http://cos3.ntnu.edu.tw/AasEnrollStudent/LoginCheckCtrl?language=TW")
 
+    time.sleep(3)
     driver.find_element_by_id("imageBoxTurnIntoTextButton-btnIconEl").click()
     time.sleep(1)
     driver.find_element_by_id("button-1005-btnIconEl").click()
@@ -53,27 +56,35 @@ def login(driver, account, password):
     # 自動輸入帳號
     input_account = driver.find_element_by_id("userid-inputEl")
     input_account.send_keys( account )
+    time.sleep(1)
 
     # 自動輸入密碼
     input_password = driver.find_element_by_id("password-inputEl")
     input_password.send_keys( password )
+    time.sleep(1)
 
     # 自動輸入驗證碼
     input_validCode = driver.find_element_by_id("validateCode-inputEl")
     input_validCode.send_keys( Rand )
+    time.sleep(1)
 
     # 登入
     driver.find_element_by_id("button-1016").click()
     time.sleep(2)
 
+    # 教育學分
+    driver.find_element_by_id("button-1005-btnIconEl").click()
+    time.sleep(1)
+
     # 點選"開始選課"
     driver.find_element_by_id("button-1017-btnIconEl").click()
-
+    time.sleep(2)
+    
 
 def selectCourseInNTNU(driver, classSerialNumber):
     # 基本資料
-    account = '40747043S'
-    password = 'cactus415646851'
+    account = ''
+    password = ''
     login(driver, account, password)
 
     # 刪除時間
@@ -86,7 +97,10 @@ def selectCourseInNTNU(driver, classSerialNumber):
     driver.switch_to.frame("stfseldListDo")
     
     # 點選"查詢"
-    driver.find_element_by_id("query-btnInnerEl").click()
+    # driver.find_element_by_id("query-btnInnerEl").click()
+
+    # 點選"加選"
+    driver.find_element_by_id("add-btnInnerEl").click()
 
     #####選課畫面#####
 
@@ -96,18 +110,29 @@ def selectCourseInNTNU(driver, classSerialNumber):
 
     # 開始查詢
     driver.find_element_by_id("button-1059-btnInnerEl").click()
-    
+    time.sleep(1)
+
     # 點選課程
     driver.find_element_by_id("grid-body").click()
     driver.find_element_by_id("gridview-1123-body").click()
 
     # 點選"課程大綱"
-    driver.find_element_by_id("book_open1-btnInnerEl").click()
+    # driver.find_element_by_id("book_open1-btnInnerEl").click()
+
+    while True:
+        # 點選"加選"
+        driver.find_element_by_id("save-btnInnerEl").click()
+        time.sleep(10)
+
+        # 點選"OK"
+        driver.find_element_by_id("button-1005-btnIconEl").click()
+        time.sleep(10)
+    
 
 def selectCourseInNTU(driver, classSerialNumber):
     # 基本資料
-    account = '40747043S'
-    password = 'cactus415646851'
+    account = ''
+    password = ''
     login(driver, account, password)
 
     # 刪除時間
@@ -142,7 +167,8 @@ def selectCourseInNTU(driver, classSerialNumber):
 if __name__ == '__main__':
     driver = openChrome()
 
-    selectCourseInNTNU(driver, 3210)
+    # 選課序號
+    selectCourseInNTNU(driver, 2585)
     time.sleep(10)
     
     # 印出抓到的

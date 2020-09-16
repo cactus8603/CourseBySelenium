@@ -1,0 +1,201 @@
+1598874515037	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\88693\\AppData\\Local\\Temp\\rust_mozprofileLmtwYx"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1598874517531	Marionette	INFO	Listening on port 51321
+1598874517705	Marionette	WARN	TLS certificate errors will be ignored for this session
+1598874620569	Marionette	INFO	Stopped listening on port 51321
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1598874633316	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\88693\\AppData\\Local\\Temp\\rust_mozprofileGz1aBs"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1598874634985	Marionette	INFO	Listening on port 51535
+1598874635393	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: "Store does not have a valid reducer. Make sure the argument passed to combineReducers is an object whose values are reducers."
+console.error: "stylesheets actor: fetch failed for https://webapp.yuntech.edu.tw/YunTechSSO/Content/css?v=-A536lvCcqh_J3zzrwxzK41jM-TICrE9pv3qG5kM3uM1, using system principal instead."
+Handler function threw an exception: TypeError: this.walker is null
+Stack: get conn@resource://devtools/server/actors/inspector/node.js:182:5
+getParent@resource://devtools/shared/protocol/Pool.js:40:5
+destroy@resource://devtools/shared/protocol/Pool.js:165:25
+destroy@resource://devtools/shared/protocol/Actor.js:76:11
+destroy@resource://devtools/server/actors/inspector/node.js:193:38
+destroy@resource://devtools/shared/protocol/Pool.js:189:17
+destroy@resource://devtools/shared/protocol/Actor.js:76:11
+destroy@resource://devtools/server/actors/styles.js:153:38
+destroy@resource://devtools/shared/protocol/Pool.js:189:17
+destroy@resource://devtools/shared/protocol/Actor.js:76:11
+destroy@resource://devtools/server/actors/inspector/inspector.js:126:38
+destroy@resource://devtools/shared/protocol/Pool.js:189:17
+_detach@resource://devtools/server/actors/targets/browsing-context.js:991:35
+exit@resource://devtools/server/actors/targets/browsing-context.js:573:10
+destroy@resource://devtools/server/actors/targets/browsing-context.js:554:10
+removeActor@resource://devtools/server/actors/common.js:63:13
+APDestroy@resource://devtools/server/actors/common.js:28:12
+onClosed/<@resource://devtools/server/devtools-server-connection.js:477:37
+onClosed@resource://devtools/server/devtools-server-connection.js:477:22
+close@resource://devtools/shared/transport/child-transport.js:62:16
+close@resource://devtools/server/devtools-server-connection.js:86:23
+onDisconnect<@resource://devtools/server/startup/frame.js:145:12
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22
+Line: 182, column: 5
+console.error: (new TypeError("this.walker is null", "resource://devtools/server/actors/inspector/node.js", 182))
+console.error: ({})
+[Exception... "Component not initialized"  nsresult: "0xc1f30001 (NS_ERROR_NOT_INITIALIZED)"  location: "JS frame :: resource://devtools/shared/transport/child-transport.js :: send :: line 107"  data: no]: send@resource://devtools/shared/transport/child-transport.js:107:16
+send@resource://devtools/server/devtools-server-connection.js:91:20
+_sendEvent@resource://devtools/shared/protocol/Actor.js:72:15
+initialize/<@resource://devtools/shared/protocol/Actor.js:46:16
+_emit@resource://devtools/shared/event-emitter.js:226:34
+emit@resource://devtools/shared/event-emitter.js:172:18
+emit@resource://devtools/shared/event-emitter.js:324:18
+_onReflow@resource://devtools/server/actors/reflow.js:81:12
+_emit@resource://devtools/shared/event-emitter.js:226:34
+emit@resource://devtools/shared/event-emitter.js:172:18
+emit@resource://devtools/shared/event-emitter.js:324:18
+_startEventLoop@resource://devtools/server/actors/reflow.js:315:12
+notify@resource://gre/modules/Timer.jsm:62:17
+
+1598874836747	Marionette	INFO	Stopped listening on port 51535
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1598874847816	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\88693\\AppData\\Local\\Temp\\rust_mozprofile9Zwerp"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1598874849456	Marionette	INFO	Listening on port 51724
+1598874849884	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://webapp.yuntech.edu.tw/js/bubble-popup/Tooltip_Bubble_v2.js, line 33: TypeError: $(...).live is not a function
+JavaScript warning: https://elearning.yuntech.edu.tw/learn/index.php, line 16: unreachable code after return statement
+JavaScript warning: https://elearning.yuntech.edu.tw/learn/index.php, line 16: unreachable code after return statement
+JavaScript warning: https://elearning.yuntech.edu.tw/learn/index.php, line 16: unreachable code after return statement
+JavaScript warning: https://elearning.yuntech.edu.tw/learn/index.php, line 16: unreachable code after return statement
+JavaScript warning: https://elearning.yuntech.edu.tw/learn/index.php, line 16: unreachable code after return statement
+JavaScript warning: https://elearning.yuntech.edu.tw/learn/mooc_sysbar.php, line 392: Script terminated by timeout at:
+parseSubItem/<@https://elearning.yuntech.edu.tw/learn/mooc_sysbar.php:392:13
+dispatch@https://elearning.yuntech.edu.tw/lib/jquery/jquery.min.js:3:4816
+i@https://elearning.yuntech.edu.tw/lib/jquery/jquery.min.js:3:709
+parseSysbar/<@https://elearning.yuntech.edu.tw/learn/mooc_sysbar.php:474:30
+
+JavaScript warning: https://elearning.yuntech.edu.tw/learn/index.php, line 16: unreachable code after return statement
+JavaScript warning: https://elearning.yuntech.edu.tw/learn/index.php, line 16: unreachable code after return statement
+JavaScript warning: https://elearning.yuntech.edu.tw/learn/index.php, line 16: unreachable code after return statement
+JavaScript error: https://elearning.yuntech.edu.tw/mooc/public/js/mooc_header.js?5ea1649a, line 218: SecurityError: Permission denied to access property "document" on cross-origin object
+JavaScript error: resource:///modules/FaviconLoader.jsm, line 568: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript warning: https://elearning.yuntech.edu.tw/learn/index.php, line 16: unreachable code after return statement
+JavaScript warning: https://elearning.yuntech.edu.tw/learn/index.php, line 16: unreachable code after return statement
+JavaScript warning: https://elearning.yuntech.edu.tw/learn/index.php, line 16: unreachable code after return statement
+JavaScript warning: https://elearning.yuntech.edu.tw/learn/index.php, line 16: unreachable code after return statement
+1598874960618	Marionette	INFO	Stopped listening on port 51724
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1600085353521	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\88693\\AppData\\Local\\Temp\\rust_mozprofileyDqzrt"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1600085355391	Marionette	INFO	Listening on port 51509
+1600085355552	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://cos4.ntnu.edu.tw/AasEnrollStudent/IndexCtrl?language=TW, line 304: TypeError: action.result is undefined
+1600085371656	Marionette	INFO	Stopped listening on port 51509
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1600089446844	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\88693\\AppData\\Local\\Temp\\rust_mozprofilewptwXK"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1600089448274	Marionette	INFO	Listening on port 53649
+1600089448358	Marionette	WARN	TLS certificate errors will be ignored for this session
+1600089466415	Marionette	INFO	Stopped listening on port 53649
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1600089514049	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\88693\\AppData\\Local\\Temp\\rust_mozprofile05bhd3"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1600089515491	Marionette	INFO	Listening on port 53698
+1600089515563	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://cos3.ntnu.edu.tw/AasEnrollStudent/EnrollCtrl?action=go, line 215: TypeError: Ext.getDom(...) is null
+1600089560458	Marionette	INFO	Stopped listening on port 53698
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1600089616970	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\88693\\AppData\\Local\\Temp\\rust_mozprofileacGn7g"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1600089618393	Marionette	INFO	Listening on port 53769
+1600089618486	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://cos3.ntnu.edu.tw/AasEnrollStudent/EnrollCtrl?action=go, line 215: TypeError: Ext.getDom(...) is null
+console.error: "Store does not have a valid reducer. Make sure the argument passed to combineReducers is an object whose values are reducers."
+1600089744541	Marionette	INFO	Stopped listening on port 53769
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1600092277895	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\88693\\AppData\\Local\\Temp\\rust_mozprofileMwoal2"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1600092279444	Marionette	INFO	Listening on port 54332
+1600092279910	Marionette	WARN	TLS certificate errors will be ignored for this session
+1600092328333	Marionette	INFO	Stopped listening on port 54332
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1600092335944	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\88693\\AppData\\Local\\Temp\\rust_mozprofileFY1uZM"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1600092337655	Marionette	INFO	Listening on port 54411
+1600092337971	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: services.settings: 
+  main/fxmonitor-breaches Signature failed  TypeError: NetworkError when attempting to fetch resource.
+console.error: services.settings: 
+  main/cfr-fxa Signature failed  TypeError: NetworkError when attempting to fetch resource.
+console.error: services.settings: 
+  main/messaging-experiments Signature failed  TypeError: NetworkError when attempting to fetch resource.
+1600092345648	Marionette	INFO	Stopped listening on port 54411
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1600092354101	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\88693\\AppData\\Local\\Temp\\rust_mozprofile3t0rK8"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1600092355639	Marionette	INFO	Listening on port 54459
+1600092356114	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://cos2.ntnu.edu.tw/AasEnrollStudent/LoginCheckCtrl?language=TW, line 360: TypeError: action.result is undefined
+1600092399621	Marionette	INFO	Stopped listening on port 54459
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1600092406747	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\88693\\AppData\\Local\\Temp\\rust_mozprofilexUos6r"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1600092408185	Marionette	INFO	Listening on port 54511
+1600092408254	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://cos2.ntnu.edu.tw/AasEnrollStudent/IndexCtrl?language=TW, line 304: TypeError: action.result is undefined
+1600092617054	Marionette	INFO	Stopped listening on port 54511
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1600092435336	Marionette	INFO	Listening on port 54563
+1600092435467	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://cos2.ntnu.edu.tw/AasEnrollStudent/EnrollCtrl?action=go, line 215: TypeError: Ext.getDom(...) is null
+1600092791346	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\88693\\AppData\\Local\\Temp\\rust_mozprofile0KGAMC"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1600092792894	Marionette	INFO	Listening on port 54668
+1600092793363	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://cos2.ntnu.edu.tw/AasEnrollStudent/EnrollCtrl?action=go, line 215: TypeError: Ext.getDom(...) is null
+1600092942791	Marionette	INFO	Stopped listening on port 54668
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
