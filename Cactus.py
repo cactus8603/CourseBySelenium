@@ -73,8 +73,8 @@ def login(driver, account, password):
     time.sleep(2)
 
     # 教育學分
-    driver.find_element_by_id("button-1005-btnIconEl").click()
-    time.sleep(1)
+    # driver.find_element_by_id("button-1005-btnIconEl").click()
+    # time.sleep(1)
 
     # 點選"開始選課"
     driver.find_element_by_id("button-1017-btnIconEl").click()
@@ -122,11 +122,11 @@ def selectCourseInNTNU(driver, classSerialNumber):
     while True:
         # 點選"加選"
         driver.find_element_by_id("save-btnInnerEl").click()
-        time.sleep(10)
+        time.sleep(3)
 
         # 點選"OK"
         driver.find_element_by_id("button-1005-btnIconEl").click()
-        time.sleep(10)
+        time.sleep(5)
     
 
 def selectCourseInNTU(driver, classSerialNumber):
@@ -169,7 +169,7 @@ if __name__ == '__main__':
 
     # 選課序號
     selectCourseInNTNU(driver, 2585)
-    time.sleep(10)
+    # time.sleep(10)
     
     # 印出抓到的
     # soup = BeautifulSoup(driver.page_source, "html.parser")
